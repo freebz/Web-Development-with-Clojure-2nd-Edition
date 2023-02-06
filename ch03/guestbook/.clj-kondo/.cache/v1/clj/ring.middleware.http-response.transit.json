@@ -1,0 +1,1 @@
+["^ ","~$wrap-http-response",["^ ","~:row",4,"~:col",1,"~:fixed-arities",["~#set",[1]],"~:name","^0","~:ns","~$ring.middleware.http-response","~:top-ns","^7","~:type","~:fn"],"~:filename","/home/fx/.m2/repository/metosin/ring-http-response/0.6.5/ring-http-response-0.6.5.jar:ring/middleware/http_response.clj"]
