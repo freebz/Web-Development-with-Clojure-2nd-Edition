@@ -1,0 +1,1 @@
+["^ ","~$home-page",["^ ","~:row",7,"~:col",1,"~:fixed-arities",["~#set",[0]],"~:name","^0","~:ns","~$swagger-service.routes.home","~:top-ns","^7","~:type","~:fn"],"~$home-routes",["^ ","^1",10,"^2",1,"^5","^;","^6","^7","^8","^7"],"~:filename","/home/fx/work/Web Development with Clojure 2nd Edition/ch06/swagger-service/src/clj/swagger_service/routes/home.clj"]
