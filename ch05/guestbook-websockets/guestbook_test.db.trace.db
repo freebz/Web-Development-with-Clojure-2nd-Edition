@@ -1,0 +1,8 @@
+2023-01-25 09:48:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "GUESTBOOK" not found; SQL statement:
+INSERT INTO guestbook
+(name, message, timestamp)
+VALUES (?, ?, ?) [42102-191]
+2023-01-25 09:48:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "GUESTBOOK" not found; SQL statement:
+SELECT * FROM guestbook [42102-191]
