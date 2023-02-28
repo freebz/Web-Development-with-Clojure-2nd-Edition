@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+  <div class="jumbotron">
+    <h1>Welcome to oauth-example</h1>
+    <p>Time to start building your site!</p>
+    <p><a class="btn btn-primary btn-lg" href="http://luminusweb.net">Learn more &raquo;</a></p>
+  </div>
+
+  <div class="row">
+    <div class="span12">
+
+      {% if denied %}
+        <h2>Failed to sign in!</h2>
+      {% endif %}
+
+      {% if screen-name %}
+        <h2>Welcome {{screen-name}}</h2>
+      {% else %}
+        <a href="/oauth/twitter-init">
+          <img src="img/sign-in-with-twitter-gray.png" alt="Sign in with Twitter">
+        </a>
+      {% endif %}
+    
+    </div>
+  </div>
+{% endblock %}
